@@ -8,7 +8,7 @@ const path = require('path');
 const app = express();
 
 // Conecto to Database
-// require('./mongooseDatabase');
+require('./mongooseDatabase');
 
 // Settings
 app.set('port', process.env.PORT || 3000);
