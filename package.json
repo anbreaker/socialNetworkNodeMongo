@@ -1,0 +1,33 @@
+{
+  "name": "socialNetworkNodeMongo",
+  "version": "1.0.0",
+  "description": "- Tutorial: https://www.youtube.com/watch?v=TqC3e8nBycg&t=181s",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/server/index.js",
+    "start": "NODE_ENV=production node src/server/index.js"
+  },
+  "keywords": [],
+  "author": "anbreaker",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "fs-extra": "^9.0.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbreaker/socialNetworkNodeMongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anbreaker/socialNetworkNodeMongo/issues"
+  },
+  "homepage": "https://github.com/anbreaker/socialNetworkNodeMongo#readme"
+}
